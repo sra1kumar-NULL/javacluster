@@ -20,9 +20,9 @@ public class ExpendituresOrganiser {
 		int foodweek = scan.nextInt();
 		counter++;
 		System.out.println("\nThank you "+name + "for answering "+counter+"questions ");
-		System.out.println("\nYour fastfood expenses are "+ (food/coffee)+" times your "+ coffee+ "expenses");
-		System.out.println("\nWeekly you spend "+(coffee*coffieweek)+" on coffee");
-		System.out.println("\nWeekly you spend "+(food*foodweek)+" on fastfood");
+		System.out.println("Your fastfood expenses are "+ (food/coffee)+" times your "+ coffee+ "expenses");
+		System.out.println("Weekly you spend "+(coffee*coffieweek)+" on coffee");
+		System.out.println("Weekly you spend "+(food*foodweek)+" on fastfood");
 		scan.close();
 	}
 }
